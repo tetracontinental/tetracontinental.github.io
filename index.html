@@ -19,15 +19,37 @@
     </header>
     <section id="about">
         <h2>自己紹介</h2>
-        <p>ここに自己紹介を簡単に書きます。</p>
+        <p>ここに自己紹介を詳細に記述します。自分の経歴、スキル、趣味などを紹介しましょう。</p>
     </section>
     <section id="portfolio">
         <h2>ポートフォリオ</h2>
-        <!-- ポートフォリオのプロジェクトを追加 -->
+        <div class="portfolio-item">
+            <img src="project1.jpg" alt="プロジェクト1">
+            <h3>プロジェクト1</h3>
+            <p>プロジェクト1の説明をここに追加します。</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="project2.jpg" alt="プロジェクト2">
+            <h3>プロジェクト2</h3>
+            <p>プロジェクト2の説明をここに追加します。</p>
+        </div>
+        <!-- 他のポートフォリオアイテムを追加 -->
     </section>
     <section id="contact">
         <h2>お問い合わせ</h2>
-        <!-- 連絡先情報とお問い合わせフォームを追加 -->
+        <p>お問い合わせは以下のフォームを使用してください。必要事項を入力し、送信ボタンをクリックしてください。</p>
+        <form action="送信先のURL" method="post">
+            <label for="name">お名前</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">メールアドレス</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">メッセージ</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">送信</button>
+        </form>
     </section>
 </body>
 </html>
