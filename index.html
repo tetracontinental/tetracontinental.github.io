@@ -13,43 +13,46 @@
             <ul>
                 <li><a href="#about">自己紹介</a></li>
                 <li><a href="#portfolio">ポートフォリオ</a></li>
-                <li><a href="contact.html">お問い合わせ</a></li> <!-- お問い合わせページへのリンクを追加 -->
             </ul>
         </nav>
     </header>
-    <section id="about">
+    <section id="about" class="about-section">
         <h2>自己紹介</h2>
-        <p>ここに自己紹介を詳細に記述します。自分の経歴、スキル、趣味などを紹介しましょう。</p>
+        <div class="about-item">
+            <h3>小学校時代</h3>
+            <p>小学校時代は、科学クラブに参加し、様々な実験を楽しんでいました。また、読書が好きで、多くの本を読みました。</p>
+        </div>
+        <div class="about-item">
+            <h3>中学校時代</h3>
+            <p>中学校時代は、プログラミングに興味を持ち始めました。初めてのプログラミング言語はPythonで、簡単なゲームを作成しました。</p>
+        </div>
+        <div class="about-item">
+            <h3>高校時代</h3>
+            <p>高校時代は、プログラミングコンテストに参加し、チームで優勝を果たしました。Web開発にも興味を持ち、HTMLやCSS、JavaScriptを学びました。</p>
+        </div>
+        <div class="about-item">
+            <h3>大学時代</h3>
+            <p>大学ではコンピュータサイエンスを専攻し、複数のプロジェクトを通じて実践的なスキルを身に付けました。特に、データベース設計とフルスタック開発に注力しました。</p>
+        </div>
     </section>
     <section id="portfolio">
         <h2>ポートフォリオ</h2>
         <div class="portfolio-item">
             <img src="project1.jpg" alt="プロジェクト1">
             <h3>プロジェクト1</h3>
-            <p>プロジェクト1の説明をここに追加します。</p>
+            <p>プロジェクト1の説明をここに追加します。このプロジェクトでは、最新のWeb技術を活用し、ユーザーフレンドリーなインターフェースを実現しました。</p>
         </div>
         <div class="portfolio-item">
             <img src="project2.jpg" alt="プロジェクト2">
             <h3>プロジェクト2</h3>
-            <p>プロジェクト2の説明をここに追加します。</p>
+            <p>プロジェクト2の説明をここに追加します。このプロジェクトでは、データベース設計を中心に、高速なデータ処理を実現しました。</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="project3.jpg" alt="プロジェクト3">
+            <h3>プロジェクト3</h3>
+            <p>プロジェクト3の説明をここに追加します。このプロジェクトでは、モバイル対応のレスポンシブデザインを実現しました。</p>
         </div>
         <!-- 他のポートフォリオアイテムを追加 -->
-    </section>
-    <section id="contact">
-        <h2>お問い合わせ</h2>
-        <p>お問い合わせは以下のフォームを使用してください。必要事項を入力し、送信ボタンをクリックしてください。</p>
-        <form action="送信先のURL" method="post">
-            <label for="name">お名前</label>
-            <input type="text" id="name" name="name" required>
-
-            <label for="email">メールアドレス</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="message">メッセージ</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
-
-            <button type="submit">送信</button>
-        </form>
     </section>
 </body>
 </html>
